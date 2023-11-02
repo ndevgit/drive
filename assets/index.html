@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <!-- /fonts -->
+
+    <link rel="stylesheet" href="style.css" />
+    <title>untouchable</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header__title">untouchable</h1>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div id="game"></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="footer__text">ndevgit 2023</span>
+      </div>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+    <script src="game.js" type="module"></script>
+    <script src="gameScene.js" type="module"></script>
+    <script src="menuScene.js" type="module"></script>
+    <script src="gameOverScene.js" type="module"></script>
+  </body>
+</html>
