@@ -1,3 +1,38 @@
 body {
-  background-color: darkgray;
+  background-color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0px 20px;
+}
+
+.header {
+  padding: 30px;
+}
+
+.header__title {
+  text-transform: uppercase;
+  color: #f7cb27;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+#game {
+  border: 1px solid #fff;
+}
+
+.footer {
+  padding: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__text {
+  color: #f7cb27;
 }
